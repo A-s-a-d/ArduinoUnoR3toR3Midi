@@ -17,7 +17,7 @@ void loop() {
     sendNoteOn(melody[i]);   // Send Note On message for the current note
     delay(noteDuration);     // Wait for note duration
     sendNoteOff(melody[i]);  // Send Note Off message
-    delay(100);              // Short delay between notes
+    delay(50);              // Short delay between notes
   }
   delay(100);  // Short delay between notes
 }
